@@ -13,6 +13,12 @@ const { mix } = require('laravel-mix');
 
 mix.react('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
+// .js('resources/assets/js/bootstrap.js', 'public/js')
+// .scripts([
+ //    'public/js/react.js',
+ //    'public/js/react-dom.js',
+ //    'public/js/react-dom-server.js'
+	// ], 'public/js/react-all.js')
    .browserSync({
 	    online:false,
 	    ui:false,
