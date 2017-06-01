@@ -21,7 +21,10 @@ mix.react('resources/assets/js/app.js', 'public/js')
 	    injectChanges: true,
 	    minify: false,
 	    localOnly: true,
-	    files: ['./public']
+	    files: [
+		    './public',
+		    './resources/views'
+	    	]
 	})
    .sourceMaps()
    .version();
