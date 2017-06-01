@@ -6,12 +6,10 @@ laravel 5
 composer install
 
 npm install
-# installer
-
-make run
-
-or
+# run windows | osx | linux
 npm run start
 
 or
 npm start
+# run osx or linux
+make run
